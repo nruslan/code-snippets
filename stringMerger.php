@@ -41,6 +41,3 @@ function merge_strings($strings, $amp = false, $punctuation = ', ')
     return substr($result, 0, $length);
 }
 
-    $strs = ['Ruslan', 'Ksu', 'Kathy', 'Fistash', 'Moshkina', 'Areshkina'];
-echo merge_strings($strs, true);
-
